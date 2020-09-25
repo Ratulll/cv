@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkgrey;
+    font-family: 'Lobster', cursive;
+}
+.section-1{
+    max-width: 1000px;
+    background-color: aqua;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 50%;
+    float: left;
+}
+.bio-1{
+    float: left;
+    padding: 30px;
+}
+.bio-2{
+    float: right;
+    padding: 30px;
+
+}
+.bio-2 :hover{
+    text-decoration: underline;
+    color: red;
+}
+.bio-2 a{
+    text-decoration: none;
+    color: black;
+}
+.clear{
+    clear: both;
+}
+hr{
+    border: solid black 2px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+/*header end*/
+.left-div{
+    float: left;
+    width: 30%;
+
+}
+.right-div{
+    float: left;
+    width: 70%;
+
+}
+.common-hr{
+    border: solid 1px rgb(133, 133, 122);
+}
+.edu-left{
+    float: left;
+    width: 45%;
+
+}
+.edu-right{
+    float: left;
+    width: 45%;
+}
+/* main section end*/
+
+.footer-left{
+    text-align: center;
+    float: left;
+    color: red;
+}
+.footer-right{
+    text-align: center;
+    float: center;
+    text-decoration: none;
+}
+.footer-right :hover{
+    text-decoration: underline;
+    color: red;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+}
